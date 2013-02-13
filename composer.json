@@ -15,7 +15,7 @@
 		],
 		"post-package-update":[
 			"sh setup.sh",
-			"git submodule update --init"
+			"git submodule update"
 		]
 	}
 }
