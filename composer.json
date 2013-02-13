@@ -9,6 +9,10 @@
 		}
 	},
 	"scripts":{
+		"post-package-install":[
+			"sh setup.sh",
+			"git submodule update --init"
+		],
 		"post-package-update":[
 			"sh setup.sh",
 			"git submodule update --init"
