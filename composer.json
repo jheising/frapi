@@ -1,0 +1,11 @@
+{
+	"name"    :"frapi/frapi",
+	"require" :{
+		"php":">=5.2.0"
+	},
+	"autoload":{
+		"psr-0":{
+			"Frapi":"/"
+		}
+	}
+}
