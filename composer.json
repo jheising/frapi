@@ -7,5 +7,11 @@
 		"psr-0":{
 			"Frapi":"/"
 		}
+	},
+	"scripts":{
+		"post-package-update":[
+			"bash ./setup.sh",
+			"git submodule update --init"
+		]
 	}
 }
