@@ -10,7 +10,7 @@
 	},
 	"scripts":{
 		"post-package-update":[
-			"bash ./setup.sh",
+			"sh setup.sh",
 			"git submodule update --init"
 		]
 	}
